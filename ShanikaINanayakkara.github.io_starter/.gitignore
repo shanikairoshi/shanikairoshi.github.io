@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+.env
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/*.csv
+data/*.zip
+results/
+outputs/
+*.sqlite
+*.db

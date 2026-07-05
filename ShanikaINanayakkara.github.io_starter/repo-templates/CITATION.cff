@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "[Repository or paper title]"
+message: "If you use this code, please cite the associated paper and software."
+type: software
+authors:
+  - family-names: Nanayakkara
+    given-names: Shanika Iroshi
+  - family-names: Pokhrel
+    given-names: Shiva Raj
+repository-code: "https://github.com/[OWNER]/[REPOSITORY]"
+version: "1.0.0"
+date-released: "2026-07-05"
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "[Paper title]"
+  authors:
+    - family-names: Nanayakkara
+      given-names: Shanika Iroshi
+    - family-names: Pokhrel
+      given-names: Shiva Raj
+  year: 2026
+  doi: "[ADD DOI]"

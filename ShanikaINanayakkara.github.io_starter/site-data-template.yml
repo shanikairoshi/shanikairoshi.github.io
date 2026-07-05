@@ -1,0 +1,35 @@
+profile:
+  name: "Shanika Iroshi Nanayakkara"
+  display_name: "Shanika I. Nanayakkara"
+  title: "PhD Researcher"
+  institution: "Deakin University"
+  website: "https://shanikairoshi.github.io/"
+  github: "https://github.com/shanikairoshi"
+  email: "shaniiroshi@gmail.com"
+
+repositories:
+  - name: "ShanikaINanayakkara.github.io"
+    purpose: "Personal academic website and PhD portfolio"
+    url: "https://github.com/[OWNER]/ShanikaINanayakkara.github.io"
+  - name: "DeepUnfolding-Agent"
+    purpose: "Main API/software repository"
+    url: "https://github.com/shanikairoshi/DeepUnfolding-Agent"
+  - name: "Modeling-Quantum-Federated-Aggregation"
+    purpose: "Thesis companion repository"
+    url: "[ADD LINK]"
+
+papers:
+  - title: "Understanding global aggregation and optimization of federated learning"
+    authors: "Shanika Iroshi Nanayakkara, Shiva Raj Pokhrel, Gang Li"
+    venue: "Future Generation Computer Systems"
+    year: 2024
+    doi: "10.1016/j.future.2024.05.009"
+    chapter: "Chapter 2"
+    code: "[ADD LINK]"
+  - title: "Modeling Deep Unfolded Quantum Machine Learning Framework"
+    authors: "Shanika Iroshi Nanayakkara, Shiva Raj Pokhrel"
+    venue: "IEEE Transactions on Artificial Intelligence"
+    year: 2026
+    doi: "10.1109/TAI.2025.3573303"
+    chapter: "Chapter 5"
+    code: "[ADD LINK]"
