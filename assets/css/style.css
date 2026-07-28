@@ -8,3 +8,32 @@
 .timeline{border-left:3px solid var(--border);margin-left:.7rem;padding-left:1.4rem}.timeline-item{position:relative;margin:0 0 1.3rem;background:white;border:1px solid var(--border);border-radius:18px;padding:1rem}.timeline-item:before{content:"";position:absolute;left:-1.98rem;top:1.2rem;width:.8rem;height:.8rem;border-radius:999px;background:var(--accent);border:3px solid var(--bg)}
 .tag-list{display:flex;flex-wrap:wrap;gap:.45rem;margin:.9rem 0}.tag{border:1px solid var(--border);background:var(--soft);color:#123a91;border-radius:999px;padding:.25rem .62rem;font-size:.85rem;font-weight:700}.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:18px;background:white}table{width:100%;border-collapse:collapse;min-width:780px}th,td{border-bottom:1px solid var(--border);padding:.82rem;text-align:left;vertical-align:top}th{background:var(--soft);color:#123a91}tr:last-child td{border-bottom:0}.callout{background:var(--soft);border-left:5px solid var(--accent);border-radius:14px;padding:1rem;margin:1.2rem 0}.codeblock{background:#0f172a;color:#e5e7eb;border-radius:18px;padding:1rem;overflow-x:auto}.footer{margin-top:3rem;padding:2rem 0;border-top:1px solid var(--border);color:var(--muted);background:white}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:1rem}
 @media(max-width:900px){.hero-grid,.footer-grid{grid-template-columns:1fr}.card-grid,.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{align-items:flex-start;flex-direction:column;padding:.8rem 0}.nav-links{justify-content:flex-start}}@media(max-width:560px){.card-grid,.stat-grid{grid-template-columns:1fr}.hero{padding-top:2.4rem}}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-image {
+    display: block;
+    width: 100%;
+    max-height: 430px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+}
+
+.profile-caption {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.profile-caption strong {
+    font-size: 1.05rem;
+}
+
+.profile-caption span {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
